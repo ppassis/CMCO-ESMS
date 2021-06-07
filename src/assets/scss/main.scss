@@ -12,7 +12,7 @@
 
 body {
   margin: 0;
-  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Roboto", "Noto Sans", Arial, sans-serif;
   line-height: 1.5;
   color: $black;
   background-color: $white;
@@ -25,9 +25,13 @@ body {
     box-shadow: 0.25rem 0.25rem 0px $light;
   }
 }
+/* couleur par defaut des logo et picto */
+path {
+  fill: rgba($primary, 0.5);
+}
 
 h1, h2, h3, h4 {
-  font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Roboto", "Noto Sans", Arial, sans-serif;
   line-height: 1.2;
   color: $black;
 }
@@ -35,7 +39,7 @@ h1, h2, h3, h4 {
 h1 {
   font-size: 3.5em;
   font-weight: 800;
-  color: $blue;
+  color: $primary;
 
   @media only screen and (max-width: $mobile-max-width) {
     font-size: 2em;
@@ -93,25 +97,25 @@ a {
 
   &:not(button):not(.button):not(.rf-service__title):not(.rf-link):not(.footer__logo) {
     text-decoration: none;
-    color: $blue;
+    color: $primary;
     transition: .2s all;
     box-shadow: none;
-    border-bottom: 1px solid rgba($blue, 0.5);
+    border-bottom: 1px solid rgba($primary, 0.5);
 
     &:hover {
-      color: $red;
-      border-bottom: 1px solid rgba($red, 0.5);
+      color: $secondary;
+      border-bottom: 1px solid rgba($secondary, 0.5);
     }
 
     &:focus {
       background-color: $light;
-      outline-color: $blue;
+      outline-color: $primary;
     }
 
     &:active {
-      color: $blue;
+      color: $primary;
       background-color: $light;
-      outline-color: $blue;
+      outline-color: $primary;
     }
   }
 

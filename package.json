@@ -1,5 +1,5 @@
 {
-  "name": "design.numerique.gouv.fr",
+  "name": "CMCO-ESMS",
   "private": true,
   "scripts": {
     "build": "gridsome build",

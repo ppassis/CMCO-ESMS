@@ -3,14 +3,14 @@
     <div class="rf-container rf-container__header">
       <div class="rf-header__body">
         <div class="rf-header__brand">
-          <img src="/assets/images/logoRF.svg" width="96" height="89" class="header__logo-rf" alt="République Française. Liberté Égalité Fraternité."/>
+          <img src="/assets/images/logo.svg" width="96" height="89" class="header__logo-rf" alt="Portail de coopération et mutualisation de compétences et outils entre ESMS."/>
         </div>
         <div class="rf-header__navbar">
           <div class="rf-service">
             <a class="rf-service__title text-highlight" href="/" title="Retour à l’accueil DesignGouv">
-              DesignGouv
+              CoMuCO
             </a>
-            <p class="rf-service__tagline">Par le pôle Design des services numériques</p>
+            <p class="rf-service__tagline">Par le GT #4 du Conseil du Numérique en Santé</p>
           </div>
         </div>
       </div>
@@ -50,11 +50,19 @@
         margin: 0 auto;
         font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
 
+        .rf-header__brand {
+          .header__logo-rf {
+            path {
+              fill: rgba($primary, 0.5);
+            }        
+          }
+        }
+
         .rf-service {
           &__title {
             font-size: 2rem;
             font-weight: 800;
-            color: $blue;
+            color: $primary;
 
             @media only screen and (max-width: $mobile-max-width) {
               font-size: 1.5rem;

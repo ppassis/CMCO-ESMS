@@ -8,7 +8,7 @@ cloné de DesignGouv : github.com:DISIC/design.numerique.gouv.fr.git`
 
 
 ### Démarrer le projet
-- Entrer dans le projet `cd .numerique.gouv.fr`
+- Entrer dans le projet `cd CMCO-ESMS`
 - Exécuter `gridsome develop` pour démarrer un environnement local
 
 

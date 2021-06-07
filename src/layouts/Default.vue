@@ -77,64 +77,64 @@ query {
   @import "src/assets/scss/_vars.scss";
 
   @font-face {
-    font-family: "Marianne";
-    font-style: normal;
-    font-weight: 800;
-    src: url("../assets/fonts/Marianne-ExtraBold.woff") format("woff2"),
-         url("../assets/fonts/Marianne-ExtraBold.woff2") format("woff");
-    font-display: fallback;
-  }
-
-  @font-face {
-    font-family: "Inter";
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    src: url("../assets/fonts/Inter-Regular-Reduced.woff") format("woff2"),
-         url("../assets/fonts/Inter-Regular-Reduced.woff2") format("woff");
+    src: url("../assets/fonts/roboto-v27-latin-regular.woff") format("woff2"),
+         url("../assets/fonts/roboto-v27-latin-regular.woff2") format("woff");
     font-display: fallback;
   }
 
   @font-face {
-    font-family: "Inter";
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../assets/fonts/roboto-v27-latin-500.woff") format("woff2"),
+         url("../assets/fonts/roboto-v27-latin-500.woff2") format("woff");
+    font-display: fallback;
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../assets/fonts/roboto-v27-latin-700.woff") format("woff2"),
+         url("../assets/fonts/roboto-v27-latin-700.woff2") format("woff");
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../assets/fonts/noto-sans-v12-latin-regular.woff") format("woff2"),
+         url("../assets/fonts/noto-sans-v12-latin-regular.woff2") format("woff");
+    font-display: fallback;
+  }
+
+  @font-face {
+    font-family: "Noto Sans";
     font-style: italic;
     font-weight: 400;
-    src: url("../assets/fonts/Inter-Italic-Reduced.woff") format("woff2"),
-         url("../assets/fonts/Inter-Italic-Reduced.woff2") format("woff");
-    font-display: fallback;
-  }
-  @font-face {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    src: url("../assets/fonts/Inter-Medium-Reduced.woff") format("woff2"),
-         url("../assets/fonts/Inter-Medium-Reduced.woff2") format("woff");
+    src: url("../assets/fonts/noto-sans-v12-latin-italic.woff") format("woff2"),
+         url("../assets/fonts/noto-sans-v12-latin-italic.woff2") format("woff");
     font-display: fallback;
   }
 
   @font-face {
-    font-family: "Inter";
-    font-style: italic;
-    font-weight: 500;
-    src: url("../assets/fonts/Inter-MediumItalic-Reduced.woff") format("woff2"),
-         url("../assets/fonts/Inter-MediumItalic-Reduced.woff2") format("woff");
-    font-display: fallback;
-  }
-
-  @font-face {
-    font-family: "Inter";
+    font-family: "Noto Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("../assets/fonts/Inter-Bold-Reduced.woff") format("woff2"),
-         url("../assets/fonts/Inter-Bold-Reduced.woff2") format("woff");
+    src: url("../assets/fonts/noto-sans-v12-latin-700.woff") format("woff2"),
+         url("../assets/fonts/noto-sans-v12-latin-700.woff2") format("woff");
     font-display: fallback;
   }
 
   @font-face {
-    font-family: "Inter";
+    font-family: "Noto Sans";
     font-style: italic;
     font-weight: 700;
-    src: url("../assets/fonts/Inter-BoldItalic-Reduced.woff") format("woff2"),
-         url("../assets/fonts/Inter-BoldItalic-Reduced.woff2") format("woff");
+    src: url("../assets/fonts/noto-sans-v12-latin-700italic.woff") format("woff2"),
+         url("../assets/fonts/noto-sans-v12-latin-700italic.woff2") format("woff");
     font-display: fallback;
   }
 

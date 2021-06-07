@@ -7,18 +7,18 @@
     </div>
 
     <div class="footer">
-      <img src="/assets/images/logoRF.svg" width="120" height="111" alt="République Française. Liberté Égalité Fraternité."/>
+      <img src="/assets/images/logo.svg" width="120" height="111" alt="République Française. Liberté Égalité Fraternité."/>
 
       <div class="footer__content">
 
         <div class="footer__description">
 
-          <g-link to="/" class="footer__logo" title="DesignGouv - Retour à l’accueil">
-            <p class="footer__dg-title text-highlight">DesignGouv</p>
-            <p class="footer__dg-tagline">Par le pôle Design des services numériques</p>
+          <g-link to="/" class="footer__logo" title="CoMuCO - Retour à l’accueil">
+            <p class="footer__dg-title text-highlight">CoMuCO</p>
+            <p class="footer__dg-tagline">Par le GT #4 du Conseil du Numérique en Santé</p>
           </g-link>
           <p>
-            DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a>.</br>
+            CoMuCO est propulsé par la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a>.</br>
             Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" title="code source - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">code source</a> est disponible en licence libre.
           </p>
         </div>
@@ -198,8 +198,8 @@
         margin: 0;
         font-size: 2rem;
         font-weight: 800;
-        color: $blue;
-        font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+        color: $primary;
+        font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
 
         @media only screen and (max-width: $mobile-max-width) {
           font-size: 1.5rem;
@@ -213,7 +213,7 @@
         font-weight: bold;
         color: var(--g700);
         font-size: 0.875rem;
-        font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+        font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
       }
 
       .footer__content {

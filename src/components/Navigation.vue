@@ -4,9 +4,9 @@
       <li class="rf-nav__item">
         <a class="rf-link" href="/">Accueil</a>
       </li>
-      <!-- <li class="rf-nav__item">
+      <li class="rf-nav__item">
         <a class="rf-link" href="/design/">Design</a>
-      </li> -->
+      </li> 
       <li class="rf-nav__item">
         <a class="rf-link" href="/accessibilite-numerique/">Accessibilité</a>
       </li>
@@ -22,13 +22,12 @@
       <li class="rf-nav__item">
         <a class="rf-link" href="/articles/">Articles</a>
       </li>
-      <li class="rf-nav__item" v-if="$static.allJob.edges.length > 0">
+      <!-- <li class="rf-nav__item" v-if="$static.allJob.edges.length > 0">
         <a class="rf-link" href="/recrutement/">Recrutement <span class="open-jobs">{{ $static.allJob.edges.length }}</span></a>
-      </li>
+      </li> -->
     </ul>
   </nav>
 </template>
-
 
 <static-query>
 
@@ -46,7 +45,6 @@
   }
 
 </static-query>
-
 
 <script>
 
@@ -134,15 +132,15 @@
         --color-active: none !important;
 
         &.active {
-          color: $blue;
-          box-shadow: inset 0 -2px $blue;
+          color: $secondary;
+          box-shadow: inset 0 -2px $secondary;
         }
 
         &:hover {
-          color: $blue;
+          color: $primary;
 
           .open-jobs {
-            color: $blue;
+            color: $primary;
           }
 
           &:after {

@@ -13,14 +13,14 @@ main {
 
     &:hover {
       h2 {
-        color: $red;
+        color: $secondary;
       }
     }
 
     h2 {
       margin: 0;
       font-size: 1.75em;
-      color: $blue;
+      color: $primary;
       transition: .2s all;
 
       @media only screen and (max-width: $mobile-max-width) {

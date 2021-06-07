@@ -3,7 +3,7 @@
 
     <div class="cover">
       <div class="cover__container">
-        <h1>Concevons des services publics numériques <span class="text-highlight">accessibles</span>, <span class="text-highlight">inclusifs</span> et <span class="text-highlight">humains</span>.</h1>
+        <h1><span class="text-highlight">Co</span>opération et <span class="text-highlight">Mu</span>tualisation des <span class="text-highlight">C</span>ompétences et <span class="text-highlight">O</span>utils entre les établissements et services médico-sociaux.</h1>
         <p class="cover__subtitle">Les services publics numériques sont encore trop souvent conçus sans prendre en compte l'audience qu’ils servent. Nous mettons à la disposition des administrations des idées et outils pour améliorer l’expérience usager de leurs services.</p>
       </div>
     </div>
