@@ -235,7 +235,7 @@
         p {
           margin: 11px;
           font-weight: bold;
-          color: $blue;
+          color: $primary;
           flex-shrink: 0;
         }
       }
@@ -243,8 +243,8 @@
       &__step-id {
         display: inline-block;
         position: absolute;
-        color: $blue;
-        border: 2px solid $blue;
+        color: $primary;
+        border: 2px solid $primary;
         border-radius: 50%;
         width: 20px;
         height: 20px;
@@ -277,7 +277,7 @@
         }
 
         &:hover, &:focus {
-          border-color: $blue;
+          border-color: $primary;
           box-shadow: 5px 5px 0px $light;
         }
 
@@ -295,7 +295,7 @@
           border-radius: unset;
 
           &:focus, &:hover{
-            color: $blue;
+            color: $primary;
           }
 
           &::before {

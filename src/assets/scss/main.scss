@@ -12,7 +12,7 @@
 
 body {
   margin: 0;
-  font-family: "Roboto", "Noto Sans", Arial, sans-serif;
+  font-family: "Noto Sans", Arial, sans-serif;
   line-height: 1.5;
   color: $black;
   background-color: $white;
@@ -27,13 +27,14 @@ body {
 }
 /* couleur par defaut des logo et picto */
 path {
-  fill: rgba($primary, 0.5);
+  /*fill: rgba($primary, 0.5);*/
+  fill: $light
 }
 
 h1, h2, h3, h4 {
   font-family: "Roboto", "Noto Sans", Arial, sans-serif;
   line-height: 1.2;
-  color: $black;
+  color: $dark-gray;
 }
 
 h1 {

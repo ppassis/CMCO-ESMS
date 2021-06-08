@@ -223,8 +223,8 @@ query Article ($id: ID!) {
         }
 
         &:hover {
-          border: 2px solid $blue;
-          color: $blue;
+          border: 2px solid $primary;
+          color: $primary;
         }
       }
     }

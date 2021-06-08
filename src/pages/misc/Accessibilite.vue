@@ -38,6 +38,7 @@
             <li><a href="/misc/accessibilite">Accessibilité</a></li>
             <li><a href="/commando-ux/">Commando UX</a></li>
             <li><a href="/equipe/">Notre équipe</a></li>
+            <li><a href="/signin/">signin</a></li>
           </ul>
         </section>
 

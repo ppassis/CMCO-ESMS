@@ -345,7 +345,7 @@
           flex-basis: 44%;
           margin: 0 1.5% 1.5rem 1.5%;
           padding-left: 2%;
-          border-left: 4px solid $blue;
+          border-left: 4px solid $primary;
           list-style: none;
 
 
@@ -392,7 +392,7 @@
             border-left: 4px solid $red;
 
             h3 {
-              color: $blue;
+              color: $primary;
 
               svg {
                 margin-left: 12px;

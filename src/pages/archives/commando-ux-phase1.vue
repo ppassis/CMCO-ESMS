@@ -203,8 +203,8 @@
 
     .button {
       text-decoration: none;
-      border-color: $blue;
-      background-color: $blue;
+      border-color: $primary;
+      background-color: $primary;
       color: white;
       border-radius: 32px;
       padding: 8px 24px;
@@ -280,13 +280,13 @@
 
           svg {
             font-size: 40px;
-            color: $blue;
+            color: $primary;
           }
         }
 
         p {
           font-size: 0.875em;
-          color: $blue;
+          color: $primary;
           margin: 0;
           font-weight: 500;
           border-radius: 8px;
@@ -321,7 +321,7 @@
         position: relative;
         margin: 0;
         padding: .5rem 0;
-        color: $blue;
+        color: $primary;
 
         &:before {
           font-family: "Marianne";

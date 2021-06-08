@@ -274,7 +274,7 @@
       .steps {
         margin-left: 56px;
         padding-left: 32px;
-        border-left: 4px dotted $blue;
+        border-left: 4px dotted $primary;
 
         @media only screen and (max-width: $mobile-max-width) {
           margin-left: 8px;
@@ -326,7 +326,7 @@
             border: none;
 
             &:hover {
-              color: $blue;
+              color: $primary;
             }
           }
         }
@@ -403,7 +403,7 @@
 
             svg {
               font-size: 40px;
-              color: $blue;
+              color: $primary;
             }
           }
 

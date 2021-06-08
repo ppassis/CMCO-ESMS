@@ -82,7 +82,7 @@
         }
 
         > span {
-          color: $blue;
+          color: $primary;
         }
       }
     }

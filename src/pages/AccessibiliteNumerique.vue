@@ -29,7 +29,7 @@
       <section>
         <h2>Comprendre</h2>
         <div class="grid-menu">
-          <g-link to="/accessibilite-numerique/cadre-legal/" class="button button--blue">
+          <g-link to="/accessibilite-numerique/cadre-legal/" class="button button--primary">
             <font-awesome :icon="['fas', 'balance-scale']" height="16px"/>
             <span>Obligations légales et sanctions</span>
           </g-link>
@@ -82,21 +82,17 @@
         <p>À chaque deploiement de nouvelles fonctionnalités, assurez-vous que vous maintenez bien votre niveau d’accessibilité.</p>
       </section>
 
-
-
       <section>
         <h2>À emporter</h2>
         <p><g-link to="/accessibilite-numerique/a-emporter">Un mémo</g-link> pour savoir ce qu‘il faut faire, comment le faire et avec quels moyens.
         </p>
       </section>
 
-
   </Layout>
 </template>
 
 
 <script>
-
   import Accessibilite from "~/assets/images/accessibilite.svg"
 
   export default {
@@ -126,7 +122,6 @@
 
 </script>
 
-
 <style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
@@ -147,7 +142,7 @@
         margin-right: 14px;
         width: 20.5%;
         border-radius: 16px;
-        border: 2px solid $blue;
+        border: 2px solid $primary;
         text-align: center;
         padding: 12px 8px 8px 8px;
         margin-bottom: 16px;

@@ -29,7 +29,7 @@
   margin: 0;
   padding:0;
   background: $light-gray;
-  color: $blue;
+  color: $primary;
 
   .container {
     position: relative;
@@ -51,7 +51,7 @@
 
   a {
     padding: 0;
-    color: $blue;
+    color: $primary;
     text-decoration: none;
   }
 

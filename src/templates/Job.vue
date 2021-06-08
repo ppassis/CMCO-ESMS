@@ -103,7 +103,7 @@
       p + h3,
       div > h3 {
         margin-top: 2em;
-        color: $blue;
+        color: $primary;
       }
 
       h2 + h3 {

@@ -6,7 +6,8 @@ $light: #ddcbff;
 
 $light-gray: #F7F7F9;
 $gray: #D7D7D9;
-$dark-gray: #575759;
+/*$dark-gray: #575759;*/
+$dark-gray: #323130;
 $black: #272729;
 $white: #FFFFFF;
 
@@ -16,7 +17,7 @@ $header-max-width: 1140px;
 :export {
   primary: $primary;
   secondary: $secondary;
-  blue: $blue;
+  blue: $primary;
   red: $red;
   light: $light;
   light-gray: $light-gray;

@@ -333,7 +333,7 @@
           font-weight: 800;
           font-size: 1.5em;
           margin: 12px 0 8px 0;
-          color: $blue;
+          color: $primary;
 
           @media only screen and (max-width: $mobile-max-width) {
             font-size: 1.125em;
@@ -433,13 +433,13 @@
 
           svg {
             font-size: 40px;
-            color: $blue;
+            color: $primary;
           }
         }
 
         p {
           font-size: 0.875em;
-          color: $blue;
+          color: $primary;
           margin: 0;
           font-weight: 500;
           border-radius: 8px;
@@ -474,7 +474,7 @@
         position: relative;
         margin: 0;
         padding: .5rem 0;
-        color: $blue;
+        color: $primary;
 
         &:before {
           font-family: "Marianne";
@@ -532,7 +532,7 @@
             border: none !important;
 
             &:hover {
-              color: $blue;
+              color: $primary;
             }
           }
         }

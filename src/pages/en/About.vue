@@ -178,7 +178,7 @@
           border: none;
 
           &:hover {
-            color: $blue;
+            color: $primary;
           }
         }
       }
