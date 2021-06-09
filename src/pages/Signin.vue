@@ -24,23 +24,47 @@
       </p>
 
       <p class="cover__subtitle cover__subtitle--small">
-        Vous pourez également régler les notifications pour etre alerté à l'arrivé d'une nouvelle action correspondant à vos critéres et bien plus encore !
+        Vous pourez également régler les notifications pour être alerté à l'arrivée d'une nouvelle action correspondant à vos critéres et bien plus encore !
       </p>
 
     </div>
 
     <div class="content">
 
-      <form action="https://gouv.us5.list-manage.com/subscribe/post?u=c921e95d674341b87fd4fb6e6&amp;id=bc185cd5f1" method="post" name="mc-embedded-subscribe-form" target="_blank" rel="noreferrer noopener">
-
+      <form name="signin" method="post" data-netlify="true" data-netlify-honeypot="bot-filed" rel="noreferrer noopener">
+        <input type="hidden" name="form-name" value="signin" />
         <div class="indicates-required"><span class="asterisk">*</span> champs obligatoires</div>
 
         <div class="form-group">
-          <label for="mce-EMAIL" aria-describedby="format">
+          <label for="userEmail" aria-describedby="format">
             Votre adresse électronique <span class="asterisk">*</span>
           </label>
-          <p class="rf-hint-text" id="format">Au format prenom@mail.fr</p>
-          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" required>
+          <p class="rf-hint-text" id="format">Au format xxxx@xxxx.xx</p>
+          <input type="email" value="" name="userEmail" class="email" id="userEmail" required>
+        </div>
+
+        <div class="form-group">
+          <label for="userNom" aria-describedby="format">
+            Votre Nom <span class="asterisk">*</span>
+          </label>
+          <p class="rf-hint-text" id="format">Saisissez votre nom de famille</p>
+          <input type="text" value="" name="userNom" class="email" id="userNom" required>
+        </div>
+
+        <div class="form-group">
+          <label for="userPrenom" aria-describedby="format">
+            Votre prénom <span class="asterisk">*</span>
+          </label>
+          <p class="rf-hint-text" id="format">Saisissez votre prénom</p>
+          <input type="text" value="" name="userPrenom" class="email" id="userPrenom" required>
+        </div>
+
+        <div class="form-group">
+          <label for="userTel" aria-describedby="format">
+            Votre numéro de téléphone<span class="asterisk">*</span>
+          </label>
+          <p class="rf-hint-text" id="format">Au format XXXXXXXXXX</p>
+          <input type="tel" value="" name="userTel" class="email" id="userTel" pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" required>
         </div>
 
         <div class="form-group">
@@ -48,36 +72,17 @@
           <div class="form-group-select">
             <select name="group[21897]" id="mce-group[21897]">
               <option >...</option>
-              <option value="1">un ESMS privé lucratif</option>
-              <option value="2">un ESMS privé non lucratif</option>
-              <option value="4">un ESMS public</option>
-              <option value="8">un industriel, éditeur de solution numérique</option>
-              <option value="8">Je suis étudiant(e)</option>
-              <option value="16">Autre</option>
+              <option value="1">un ESMS public</option>
+              <option value="2">un ESMS privé à but non lucratif</option>
+              <option value="3">un ESMS privé à caractère commercial</option>
+              <option value="4">un industriel, éditeur de solution numérique</option>
+              <option value="5">Je suis étudiant(e)</option>
+              <option value="6">Autre</option>
             </select>
           </div>
         </div>
-
-        <div class="form-group form-group__checkboxes">
-          <fieldset>
-          <legend>Votre expertise professionelle </legend>
-          <ul>
-            <li><input type="checkbox" value="32" name="group[21901][32]" id="mce-group[21901]-21901-0"><label for="mce-group[21901]-21901-0">Designer UX</label></li>
-            <li><input type="checkbox" value="512" name="group[21901][512]" id="mce-group[21901]-21901-1"><label for="mce-group[21901]-21901-1">Designer UI</label></li>
-            <li><input type="checkbox" value="2048" name="group[21901][2048]" id="mce-group[21901]-21901-2"><label for="mce-group[21901]-21901-2">Designer de services</label></li>
-            <li><input type="checkbox" value="64" name="group[21901][64]" id="mce-group[21901]-21901-3"><label for="mce-group[21901]-21901-3">Chef / cheffe de produit (<span lang="en">product owner</span>)</label></li>
-            <li><input type="checkbox" value="262144" name="group[21901][262144]" id="mce-group[21901]-21901-4"><label for="mce-group[21901]-21901-4">Chercheur / chercheuse utilisateur (<span lang="en">user researcher</span>)</label></li>
-            <li><input type="checkbox" value="1024" name="group[21901][1024]" id="mce-group[21901]-21901-5"><label for="mce-group[21901]-21901-5" lang="en">Scrum master</label></li>
-            <li><input type="checkbox" value="128" name="group[21901][128]" id="mce-group[21901]-21901-6"><label for="mce-group[21901]-21901-6">Développeur / développeuse <span lang="en">front-end</span></label></li>
-            <li><input type="checkbox" value="4096" name="group[21901][4096]" id="mce-group[21901]-21901-7"><label for="mce-group[21901]-21901-7">Développeur / développeuse <span lang="en">back-end</span></label></li>
-            <li><input type="checkbox" value="8192" name="group[21901][8192]" id="mce-group[21901]-21901-8"><label for="mce-group[21901]-21901-8">Développeur / développeuse accessibilité</label></li>
-            <li><input type="checkbox" value="16384" name="group[21901][16384]" id="mce-group[21901]-21901-9"><label for="mce-group[21901]-21901-9">Spécialiste en sciences comportementales</label></li>
-            <li><input type="checkbox" value="32768" name="group[21901][32768]" id="mce-group[21901]-21901-10"><label for="mce-group[21901]-21901-10">Rédacteur (<span lang="en">UX writer</span>)</label></li>
-            <li><input type="checkbox" value="65536" name="group[21901][65536]" id="mce-group[21901]-21901-11"><label for="mce-group[21901]-21901-11">Juriste</label></li>
-            <li><input type="checkbox" value="131072" name="group[21901][131072]" id="mce-group[21901]-21901-12"><label for="mce-group[21901]-21901-12" lang="en">Data scientist</label></li>
-            <li><input type="checkbox" value="256" name="group[21901][256]" id="mce-group[21901]-21901-13"><label for="mce-group[21901]-21901-13">Autre</label></li>
-          </ul>
-          </fieldset>
+        <div>
+          <input type="checkbox" id="cgu" name="cgu" value="cgu" required> <label for="cgu">&nbsp;&nbsp;J'ai lu et j'accepte les Conditions Générales d'Utilisation<span class="asterisk">*</span></label>
         </div>
 
         <!-- <div id="mce-responses" class="clear">
@@ -129,7 +134,7 @@
 
     .content {
 
-      max-width: 480px;
+      max-width: 40vw;
       margin:auto;
 
       .rgpd {

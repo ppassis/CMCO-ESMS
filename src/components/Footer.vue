@@ -7,7 +7,7 @@
     </div>
 
     <div class="footer">
-      <img src="/assets/images/logo.svg" width="120" height="111" alt="République Française. Liberté Égalité Fraternité."/>
+      <img src="/assets/images/logo.png" width="120" height="111" alt="Coopération et mutualisation des compténces et outils entre ESMS."/>
 
       <div class="footer__content">
 
@@ -25,10 +25,9 @@
 
         <div class="footer__websites">
           <div>
-            <p>DesignGouv</p>
+            <p>CoMuCO</p>
             <ul>
               <li><g-link to="/equipe/">Notre équipe</g-link></li>
-              <li><g-link to="/recrutement/">Recrutement</g-link></li>
               <li><g-link to="/contact/">Contact</g-link></li>
               <li><a href="https://twitter.com/design_gouv/" title="Twitter - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
                 Twitter <font-awesome  width="0" :icon="['fab', 'twitter']"/>
@@ -72,14 +71,6 @@
           </ul>
         </div>
 
-        <div class="footer__sites-publics">
-           <ul>
-            <li><a href="https://elysee.fr" title="Élysée.fr - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Élysée.fr</a></li>
-            <li><a href="https://gouvernement.fr" title="gouvernement.fr - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">gouvernement.fr</a></li>
-            <li><a href="https://www.service-public.fr" title="service-public.fr - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">service-public.fr</a></li>
-            <li><a href="https://legifrance.gouv.fr" title="légifrance.gouv.fr - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">légifrance.gouv.fr</a></li>
-          </ul>
-        </div>
       </div>
     </div>
 
@@ -217,6 +208,7 @@
       }
 
       .footer__content {
+        max-width: 8°;
         margin: 0px 40px 0px 40px;
 
         @media only screen and (max-width: $mobile-max-width) {

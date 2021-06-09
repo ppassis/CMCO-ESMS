@@ -3,8 +3,8 @@
 
     <div class="cover">
       <div class="cover__container">
-        <h1><span class="text-highlight">Co</span>opération et <span class="text-highlight">Mu</span>tualisation des <span class="text-highlight">C</span>ompétences et <span class="text-highlight">O</span>utils entre les établissements et services médico-sociaux.</h1>
-        <p class="cover__subtitle">Les services publics numériques sont encore trop souvent conçus sans prendre en compte l'audience qu’ils servent. Nous mettons à la disposition des administrations des idées et outils pour améliorer l’expérience usager de leurs services.</p>
+        <h1><span class="text-highlight">Co</span>opération et <span class="text-highlight">Mu</span>tualisation des <span class="text-highlight">C</span>ompétences et des <span class="text-highlight">O</span>utils entre les établissements et services médico-sociaux.</h1>
+        <p class="cover__subtitle">En complément de la feuille de route de la transformation numérique du secteur, notre groupe de travail a conçu et développé un guide pratique pour accompagné vos démarches de mutualisation. Vous trouverez sur ce site des idées et outils pour accompagner vos actions de coopération.</p>
       </div>
     </div>
 
@@ -17,9 +17,9 @@
           <div class="item item--left">
             <div class="item__content">
               <Design focusable="false" class="item__icon" aria-hidden="true"/>
-              <h2>Design</h2>
+              <h2>Outils numériques</h2>
               <p>
-                Rendre les services numériques plus <strong>simples</strong>, <strong>accessibles</strong> et <strong>agréables</strong> pour les usagers.
+                Proposer ou utiliser des solutions numériques <strong>simples</strong>, <strong>accessibles</strong>, <strong>agréables</strong> et <strong> dédiées</strong> au secteur médico-social.
               </p>
             </div>
 
@@ -31,14 +31,14 @@
           <div class="item item--right">
             <div class="item__content">
               <Accessibilite focusable="false" class="item__icon" aria-hidden="true"/>
-              <h2>Accessibilité</h2>
+              <h2>Compétences</h2>
               <p>
-                Rendre les services en ligne accessibles aux personnes en <strong>situation de handicap</strong>.
+                Mutualiser les <strong>compétences</strong> telles qu'un DSI, un RSSI, un développeur ou enore un médiateur numérique entre plusieurs structures.
               </p>
             </div>
 
             <g-link to="/accessibilite-numerique/" class="item__link button button--highlight">
-              L’accessibilité en détails<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+              Les compétences en détails<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
             </g-link>
           </div>
 

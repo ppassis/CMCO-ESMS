@@ -15,7 +15,7 @@
     <div class="cover">
      <div class="cover__container">
 
-       <h1>Le pôle design des services numériques</h1>
+       <h1>Le Groupe de Travail 4 du Conseil du Numérique en Santé</h1>
 
       </div>
     </div>

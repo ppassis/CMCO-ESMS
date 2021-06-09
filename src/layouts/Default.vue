@@ -151,7 +151,7 @@ query {
   }
 
   .layout {
-    max-width: 820px;
+    max-width: 78.75vw;
     margin: 0 auto;
     padding: 0 30px;
 

@@ -3,7 +3,7 @@
     <div class="rf-container rf-container__header">
       <div class="rf-header__body">
         <div class="rf-header__brand">
-          <img src="/assets/images/logo.svg" width="96" height="89" class="header__logo-rf" alt="Portail de coopération et mutualisation de compétences et outils entre ESMS."/>
+          <img src="/assets/images/logo.png" width="96" height="89" class="header__logo-rf" alt="Portail de coopération et mutualisation de compétences et outils entre ESMS."/>
         </div>
         <div class="rf-header__navbar">
           <div class="rf-service">

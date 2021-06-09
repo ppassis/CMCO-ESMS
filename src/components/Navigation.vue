@@ -5,22 +5,13 @@
         <a class="rf-link" href="/">Accueil</a>
       </li>
       <li class="rf-nav__item">
-        <a class="rf-link" href="/design/">Design</a>
+        <a class="rf-link" href="/design/">Trouver un projet</a>
       </li> 
       <li class="rf-nav__item">
-        <a class="rf-link" href="/accessibilite-numerique/">Accessibilité</a>
+        <a class="rf-link" href="/outils/">Outils et aides</a>
       </li>
       <li class="rf-nav__item">
-        <a class="rf-link" href="/accompagnement/">Nos offres</a>
-      </li>
-      <li class="rf-nav__item">
-        <a class="rf-link" href="/outils/">Outils</a>
-      </li>
-      <li class="rf-nav__item">
-        <a class="rf-link" href="/formations/">Formations</a>
-      </li>
-      <li class="rf-nav__item">
-        <a class="rf-link" href="/articles/">Articles</a>
+        <a class="rf-link" href="/signin/">Se connecter</a>
       </li>
       <!-- <li class="rf-nav__item" v-if="$static.allJob.edges.length > 0">
         <a class="rf-link" href="/recrutement/">Recrutement <span class="open-jobs">{{ $static.allJob.edges.length }}</span></a>
