@@ -5,14 +5,14 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'DesignGouv',
-  siteUrl: 'https://design.numerique.gouv.fr/',
+  siteName: 'CoMuCO-ESMS',
+  siteUrl: 'https://jovial-pike-ecf7be.netlify.app',
   plugins: [
     {
       use: 'gridsome-plugin-matomo',
       options: {
-        host: '//stats.data.gouv.fr',
-        siteId: 105
+        host: '//stats.passis.fr',
+        siteId: 2
       }
     },
     {

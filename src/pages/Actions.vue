@@ -13,7 +13,7 @@
             <g-image :src="node.illustration" focusable="false" alt="" aria-hidden="true"/>
             <p class="articles__date">{{ node.publishedDate }}</p>
             <h2><g-link :to="node.path">{{ node.title }}</g-link></h2>
-            <p>{{ node.slug }}</p>
+            <p>{{ node.shortDescription }}</p>
             <p>{{ node.porteur }}</p>
           </article>
         </section>
@@ -43,7 +43,8 @@
           porteur
           partenaires
           document
-          description
+          shortDescription
+          longDescription
           path          
         }
       }
