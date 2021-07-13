@@ -5,7 +5,7 @@
         <a class="rf-link" href="/">Accueil</a>
       </li>
       <li class="rf-nav__item">
-        <a class="rf-link" href="/design/">Trouver un projet</a>
+        <a class="rf-link" href="/actions/">Trouver un projet</a>
       </li> 
       <li class="rf-nav__item">
         <a class="rf-link" href="/outils/">Outils et aides</a>

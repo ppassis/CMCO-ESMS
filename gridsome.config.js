@@ -64,6 +64,20 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
+        typeName: 'Action',
+        path: './content/actions/*.md',
+        refs: {
+          tags: {
+            typeName: 'Tag',
+            create: true
+          },
+        },
+      }
+    },
+
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
         typeName: 'GooseStep',
         path: './content/goose/steps/*.md',
       }
@@ -148,6 +162,7 @@ module.exports = {
     Job: '/recrutement/:slug',
     Challenge: '/commando-ux/:slug',
     Article: '/articles/:slug',
+    Action: '/actions/:slug',
     Tag: '/tag/:id',
   },
   prefetch: {
