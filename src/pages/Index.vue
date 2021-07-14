@@ -161,18 +161,18 @@
       Equipe
     },
     metaInfo: {
-      title: "DesignGouv - Le design numérique au service des administrations",
+      title: "Accueil",
       meta: [{
         name: "description",
-        content: "Comment créer des services numériques de qualité et accessibles pour tous."
+        content: "Partager vos projets de coopération de ressources et outils numérique entre ESMS."
       },
       {
         property: "og:title",
-        content: "DesignGouv - Le design numérique au service des administrations"
+        content: "CMCO-ESMS"
       },
       {
         property: "og:description",
-        content: "Comment créer des services numériques de qualité et accessibles pour tous."
+        content: "Partager vos projets de coopération de ressources et outils numérique entre ESMS .."
       },
       {
         property: "og:image",
@@ -184,23 +184,19 @@
       },
       {
         name: "twitter:site",
-        content: "@Design_Gouv"
+        content: "@CoMuCo-ESMS"
       },
       {
         name: "twitter:title",
-        content: "DesignGouv - Le design numérique au service des administrations"
+        content: "CoMuCO - COCM-ESMS"
       },
       {
         name: "twitter:description",
-        content: "Comment créer des services numériques de qualité et accessibles pour tous."
+        content: "Partager vos projets de coopération de ressources et outils numérique entre ESMS."
       },
       {
         name: "twitter:image",
         content: "https://design.numerique.gouv.fr/designGouv.png"
-      },
-      {
-        name: "google-site-verification",
-        content: "3lr6jhip11QgAYBjIlgBMRAi7CfsjE8mQygaLbZo68A"
       }],
     }
   }

@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'CoMuCO-ESMS',
-  siteUrl: 'https://jovial-pike-ecf7be.netlify.app',
+  siteUrl: 'https://comuco-esms.netlify.app/',
   plugins: [
     {
       use: 'gridsome-plugin-matomo',
@@ -74,7 +74,6 @@ module.exports = {
         },
       }
     },
-
     {
       use: '@gridsome/source-filesystem',
       options: {

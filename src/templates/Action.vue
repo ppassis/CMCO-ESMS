@@ -1,5 +1,5 @@
 <template>
-  <Layout class="article-page">
+  <Layout class="action-page">
 
     <div class="cover">
 
@@ -9,7 +9,7 @@
             <g-link to="/">Accueil</g-link>
           </li>
           <li>
-            <g-link to="/articles/">Articles</g-link>
+            <g-link to="/actions/">Actions</g-link>
           </li>
           <li>
             <p aria-current="page">
@@ -19,23 +19,20 @@
         </ol>
       </nav>
 
-     <div
-        class="cover__container"
-        :style="{ backgroundImage: `url(${illustration})` }">
-
+     <div class="cover__container">
         <div class="cover__text">
-          <p class="cover__subtitle"><span v-html="$page.article.publishedDate" /></p>
-          <h1 v-html="$page.article.title" />
+          <p class="cover__subtitle"><span v-html="$page.action.publishedDate" /></p>
+          <h1 v-html="$page.action.title" />
         </div>
       </div>
     </div>
 
     <div class="content">
 
-      <div v-html="$page.article.content" />
+      <div v-html="$page.action.content" />
 
       <div class="tags">
-        <g-link class="tags__item" v-for="tag in $page.article.tags" :key="tag.id" :to="tag.path">{{tag.id}}</g-link>
+        <g-link class="tags__item" v-for="tag in $page.action.tags" :key="tag.id" :to="tag.path">{{tag.id}}</g-link>
       </div>
 
     </div>
@@ -46,22 +43,22 @@
 export default {
   metaInfo () {
     return {
-      title: this.$page.article.title,
+      title: this.$page.action.title,
       meta: [{
         name: "description",
-        content: this.$page.article.description
+        content: this.$page.action.description
       },
       {
         property: "og:title",
-        content: this.$page.article.title + " - DesignGouv"
+        content: this.$page.action.title + " - CoMuCO ESMS"
       },
       {
         property: "og:description",
-        content: this.$page.article.description
+        content: this.$page.action.description
       },
       {
         property: "og:image",
-        content: "https://design.numerique.gouv.fr" + this.$page.article.illustration.src
+        content: "https://design.numerique.gouv.fr" 
       },
       {
         name: "twitter:card",
@@ -69,44 +66,51 @@ export default {
       },
       {
         name: "twitter:site",
-        content: "@collectif-SI-MS-PACA"
+        content: "@Design_Gouv"
       },
       {
         name: "twitter:title",
-        content: this.$page.article.title + " - DesignGouv"
+        content: this.$page.action.title + " - DesignGouv"
       },
       {
         name: "twitter:description",
-        content: this.$page.article.description
+        content: this.$page.action.description
       },
       {
         name: "twitter:image",
-        content: "https://design.numerique.gouv.fr" + this.$page.article.illustration.src
+        content: "https://design.numerique.gouv.fr" 
       }],
     }
   },
   created() {
-    this.illustration = this.$page.article.illustration.src
     this.cropedTitle =
-      this.$page.article.title.length > 30 ?
-      this.$page.article.title.substring(0, 28) + "..." :
-      this.$page.article.title;
+      this.$page.action.title.length > 30 ?
+      this.$page.action.title.substring(0, 28) + "..." :
+      this.$page.action.title;
   }
 }
 </script>
 
 <page-query>
-query Article ($id: ID!) {
-  article: article (id: $id) {
+query Actions ($id: ID!) {
+  action: action (id: $id) {
     title
+    cat
+    slug
     publishedDate (format: "D MMMM YYYY", locale : "fr")
-    illustration
-    description
-    content
-    tags {
-      id
-      path
+    tags{
+        id
+        path
     }
+    ville
+    codePostal
+    codeCommune
+    porteur
+    partenaires
+    document
+    shortDescription
+    longDescription
+    content          
   }
 }
 </page-query>
@@ -115,7 +119,7 @@ query Article ($id: ID!) {
 
   @import "src/assets/scss/_vars.scss";
 
-  .article-page {
+  .action-page {
 
     .breadcrumb {
       width: 100vw;
@@ -141,7 +145,7 @@ query Article ($id: ID!) {
       }
 
       &__container {
-        height: 360px;
+        height: 100px;
         padding: 0;
         background-position: center;
         background-repeat: no-repeat;

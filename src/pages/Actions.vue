@@ -1,5 +1,5 @@
 <template>
-  <Layout class="articles-page">
+  <Layout class="actions-page">
 
     <div class="cover">
      <div class="cover__container">
@@ -10,11 +10,11 @@
     <div class="content">
         <section class="articles">
           <article v-for="{ node } in $page.allAction.edges" :key="node.id">
-            <g-image :src="node.illustration" focusable="false" alt="" aria-hidden="true"/>
+            
             <p class="articles__date">{{ node.publishedDate }}</p>
             <h2><g-link :to="node.path">{{ node.title }}</g-link></h2>
             <p>{{ node.shortDescription }}</p>
-            <p>{{ node.porteur }}</p>
+            <p>{{ node.porteur }} - {{ node.codePostal }} {{ node.ville }}</p>
           </article>
         </section>
     </div>
@@ -45,7 +45,7 @@
           document
           shortDescription
           longDescription
-          path          
+          path
         }
       }
     }
@@ -85,7 +85,7 @@
       },
       {
         name: "twitter:site",
-        content: "@Design_Gouv"
+        content: "@collectif-SI-MS-PACA"
       },
       {
         name: "twitter:title",
@@ -108,7 +108,7 @@
 
   @import "src/assets/scss/_vars.scss";
 
-  .articles-page {
+  .actions-page {
 
     .cover {
       margin-bottom: 80px;

@@ -15,7 +15,6 @@ shortDescription: mise à jour de netsoins avec INS, MSS et DMP
 longDescription: 12 établissements utilisateurs déjà equipés de lecteur de carte CPS, nous voulons mettre à jour NETSOINS vers la version 18 pour pouvoir utiliser la MSSanté et interfacer le DMP.
 ---
 
-
 #### Pourquoi ?
 Depuis fin 2016, le trafic internet mobile a officiellement dépassé celui du trafic internet fixe dans le monde. De ce fait, il est indispensable de développer des services en ligne dont l’affichage s’adapte selon la taille de l’écran utilisé. La conception de sites web adaptatifs (responsive web design en anglais) contribue à :
 * une audience supérieure ;

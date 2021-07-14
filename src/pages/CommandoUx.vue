@@ -274,7 +274,7 @@
       },
       {
         name: "twitter:site",
-        content: "@Design_Gouv"
+        content: "@collectif-SI-MS-PACA"
       },
       {
         name: "twitter:title",
