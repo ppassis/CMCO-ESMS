@@ -23,9 +23,9 @@
               </p>
             </div>
 
-            <p class="item__link item__link--disabled">
-              À venir.
-            </p>
+           <g-link to="/actions/" class="item__link button button--highlight">
+              Les outils et projets mutualisables<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            </g-link>
           </div>
 
           <div class="item item--right">

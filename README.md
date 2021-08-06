@@ -14,5 +14,5 @@ cloné de DesignGouv : github.com:DISIC/design.numerique.gouv.fr.git`
 
 # Licence
 Le contenu de ce dépôt est placé sous [licence MIT](LICENSE), à l'exception du répertoire : `/src/assets/fonts/Marianne/`. 
-
+Crédits images : <a href='https://fr.freepik.com/photos/affaires'>Affaires photo créé par rawpixel.com - fr.freepik.com</a>
 

@@ -3,7 +3,7 @@
   <div class="message">
     <h2>Suivez notre actualité&nbsp;!</h2>
 
-    <p>DesignGouv, c’est aussi des événements, des rencontres et des discussions pour faire vivre la culture design au sein des administrations. Rejoignez-nous&nbsp;!</p>
+    <p>CoMuCo, c’est aussi des événements, des rencontres et des discussions pour faire vivre la culture de la ccopération et la mutualisation d'outils et de compétences au sein des acteurs du secteur medico-social. Rejoignez-nous&nbsp;!</p>
 
     <g-link class="button" to="/newsletter">Recevoir notre <span lang="en">newsletter</span></g-link>
 

@@ -7,6 +7,27 @@
       </div>
     </div>
 
+    <div class="cover">
+      <div>
+        <p>Filtres</p>
+        <g-link to="/equipe/">
+              Vue en carte<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" aria-hidden="true" height="16px" width="16px"/>
+        </g-link>
+        <g-link to="/equipe/">
+              compétences<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" aria-hidden="true" height="16px" width="16px"/>
+        </g-link>
+        <g-link to="/equipe/">
+              outils<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" aria-hidden="true" height="16px" width="16px"/>
+        </g-link>
+        <g-link to="/equipe/">
+              en cours<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" aria-hidden="true" height="16px" width="16px"/>
+        </g-link>
+         <g-link to="/equipe/">
+              terminés<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" aria-hidden="true" height="16px" width="16px"/>
+        </g-link>
+      </div>
+    </div>
+
     <div class="content">
         <section class="articles">
           <article v-for="{ node } in $page.allAction.edges" :key="node.id">

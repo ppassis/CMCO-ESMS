@@ -1,10 +1,10 @@
 ---
-title: L'État centré usager* ? Oui c'est possible
+title: Mutualiser un poste de DSI* ? Oui c'est possible
 slug: 2021-03-21-evenement-design
 publishedDate: 2021-03-21
 tags: ["", ""]
-illustration: ./illustrations/2021-03-21-evenement-design.jpg
-description: Événement en ligne les 6, 7 et 8 avril 2021
+illustration: ./illustrations/diverse-business-colleagues-shoo.jpg
+description: Un guide de mutalisation de cette fonction, fiche de poste et lettre de mision
 ---
 
 En septembre 2020, nous avons lancé le [Commando UX](/commando-ux){title="Commando UX"} : 15 designers, développeuses et développeurs recrutés au sein de notre équipe et déployés pendant 7 mois dans les administrations. Leur objectif : améliorer l'expérience utilisateur et l'accessibilité numérique de 10 des [250 démarches administratives les plus utilisées](https://observatoire.numerique.gouv.fr){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} par les Français.

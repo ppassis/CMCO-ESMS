@@ -8,7 +8,7 @@
       </p>
 
       <g-link to="/articles/2021-03-21-evenement-design/">
-        Fiche de poste et mission d'un DSI mutualisé<font-awesome aria-hidden="true" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" height="16" width="16"/>
+        Fiche de poste et missions d'un DSI mutualisé<font-awesome aria-hidden="true" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" height="16" width="16"/>
       </g-link>
 
   </div>
