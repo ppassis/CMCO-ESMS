@@ -44,51 +44,20 @@
 
       </section>
 
-
-      <section class="actions">
-
-        <div class="actions__title">
-          <Accompagnement focusable="false" class="actions__icon" aria-hidden="true"/>
-          <h2>Nos offres d’accompagnement</h2>
-        </div>
-
-        <ul class="actions__list">
-          <li class="action">
-            <font-awesome :icon="['fas', 'user-astronaut']" focusable="false" class="action__illustration" aria-hidden="true" transform="shrink-6" height="16px" width="16px"/>
-            <h3><g-link to="/commando-ux/">Le Commando UX <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4"  aria-hidden="true" height="16px" width="16px"/></g-link></h3>
-            <p>Une équipe de designers et développeurs pour améliorer les démarches en ligne&nbsp;🌟</p>
-          </li>
-
-          <li class="action">
-            <FranceRelance focusable="false" class="action__illustration" aria-hidden="true" height="16" width="16"/>
-            <h3><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet France Relance - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Notre guichet France Relance <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
-            <p>Destiné aux administrations pour financer la simplification de leurs démarches en ligne&nbsp;👍</p>
-          </li>
-
-          <li class="action">
-            <Observatoire focusable="false" class="action__illustration" aria-hidden="true" height="16px" width="16px"/>
-            <h3><a href="https://observatoire.numerique.gouv.fr/" title="L’observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’Observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
-            <p>Les 250 démarches administratives les plus utilisées par les Français passées à la loupe&nbsp;🔎</p>
-          </li>
-        </ul>
-
-      </section>
-
-
       <section class="bricks">
 
         <div class="brick brick--left">
           <div class="brick__description">
             <Outils focusable="false" class="brick__icon" aria-hidden="true"/>
 
-            <h2>Outils</h2>
+            <h2>Guide</h2>
 
             <p>
-              Nous mettons à votre disposition un ensemble d’outils pour vous guider sur les sujets du <strong>design</strong> et de l’<strong>accessibilité</strong>.
+              Nous mettons à votre disposition un guide pour vous éclairer sur les sujets de la <strong>coopération</strong> et de la <strong>mutualisation</strong> de <strong>compétences</strong> et <strong>outils numériques</strong>.
             </p>
           </div>
           <g-link to="/outils/" class="brick__link">
-            Accéder aux outils<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            Accéder au guide<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
@@ -96,14 +65,14 @@
           <div class="brick__description">
             <Formations focusable="false" class="brick__icon" aria-hidden="true"/>
 
-            <h2>Formations</h2>
+            <h2>Foire aux questions</h2>
 
             <p>
-              De nombreuses formations sont disponibles, que ce soit pour vous former <strong>personnellement</strong> ou en <strong>équipe</strong>.
+              De nombreuses questions/réponses sont disponibles, que ce soit pour <strong>se regrouper</strong> autour d'une projet mutualisé ou pour trouver les bonnes <strong>modalités de financement</strong>.
             </p>
           </div>
           <g-link to="/formations/" class="brick__link">
-            Voir les formations<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            Voir la FAQ<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
@@ -118,10 +87,9 @@
         </div>
 
         <div class="team__content">
-          <g-image class="team__image" src="~/assets/images/team-photos/equipe.png" alt="L’équipe DesignGouv sourire aux lèvres"/>
+          <g-image class="team__image" src="~/assets/images/team-photos/equipe.png" alt="L’équipe du groupe de travail sourire aux lèvres"/>
           <div class="team__text">
-            <p>DesignGouv c’est avant tout une équipe, <strong>le pôle Design des service numérique</strong>, diverse et heureuse de contribuer aux côtés des administrations à l’amélioration du quotidien des Français.
-              Ok, il n’y a pas tout le monde sur la photo, promis on en reprend une vite&nbsp;☀️</p>
+            <p>Ce site, le guide et la FAQ sont avant tout le fruit du travail d'une équipe, <strong>le Groupe de travail #4 du Conseil du Numérique en Santé</strong>, diverse et heureuse de contribuer aux côtés des acteurs institutionnels à l’accélération du numérique en santé dans le secteur médico-social.</p>
             <g-link to="/equipe/">
               Découvrir l’équipe et notre mission<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" aria-hidden="true" height="16px" width="16px"/>
             </g-link>
