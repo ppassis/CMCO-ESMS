@@ -25,7 +25,7 @@
         <section>
           <h2>Mission</h2>
           <p>
-            En 2017, Emmanuel Macron a fixé deux objectifs à 2022 : rendre 100% des démarches administratives réalisables en ligne, et améliorer les services publics du quotidien grâce au numérique.
+            En 2020, Emmanuel Macron a fixé deux objectifs à 2022 : rendre 100% des démarches administratives réalisables en ligne, et améliorer les services publics du quotidien grâce au numérique.
           </p>
           <p>
             Le numérique, c'est la promesse d’un accès à une multitude d’informations, de culture et services pour tous, et partout. Néanmoins, en France notamment, les produits et services numériques sont encore trop souvent conçus sans prendre en compte l'audience qu’ils servent. C’est le cas pour de nombreux services publics numériques. <strong>Le numérique doit nous permettre d'améliorer la relation entre les usagers et l'administration, à travers des services simples, accessibles et humains.</strong>
@@ -87,7 +87,7 @@
         </section>
 
         <section>
-          <h2>Le commando</h2>
+          <h2>Le groupe de travail</h2>
           <ul class="team">
             <li v-for="{ node } in commando" :key="node.id">
               <g-image :src="node.photo" quality="100" height="150" width="150" :alt="node.firstName+' '+node.lastName" />
