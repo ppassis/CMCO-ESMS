@@ -51,7 +51,7 @@
         <section>
           <h2>Conception et gestion du site</h2>
           <p>
-            Ce site est conçu et développé par l'équipe Design des services numériques. De nouvelles
+            Ce site est conçu par Dominique DIAZ et Philippe PASSIS pour le <a href="/equipe">GT#4 du CNS</a>. Il est développé par Philippe PASSIS en utilisant le code source mis a disposition par l'équipe Design des services numériques. De nouvelles
             fonctionnalités sont ajoutées en continue.
           </p>
         </section>
