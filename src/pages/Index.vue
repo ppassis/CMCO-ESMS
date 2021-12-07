@@ -4,7 +4,7 @@
     <div class="cover">
       <div class="cover__container">
         <h1><span class="text-highlight">Co</span>opération et <span class="text-highlight">Mu</span>tualisation des <span class="text-highlight">C</span>ompétences et des <span class="text-highlight">O</span>utils entre les établissements et services médico-sociaux.</h1>
-        <p class="cover__subtitle">En complément de la feuille de route de la transformation numérique du secteur, notre groupe de travail a conçu et développé un guide pratique pour accompagné vos démarches de mutualisation. Vous trouverez sur ce site des idées et outils pour accompagner vos actions de coopération.</p>
+        <p class="cover__subtitle">En complément de la feuille de route de la transformation numérique du secteur, notre groupe de travail a conçu et développé un guide pratique pour accompagner vos démarches de mutualisation. Vous trouverez sur ce site des idées et outils pour accompagner vos actions de coopération.</p>
       </div>
     </div>
 
