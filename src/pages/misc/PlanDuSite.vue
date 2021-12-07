@@ -23,32 +23,23 @@
     <div class="content">
 
         <section>
-          <h2>Design numérique</h2>
-          <p>Bientôt disponible.</p>
-          <h2><a href="/commando-ux/">Commando UX</a></h2>
+          <h2><a href="/actions/">la liste des actions de coopération et mutualisation</a></h2>
           <h2><a href="/accessibilite-numerique/">Accessibilité</a></h2>
           <ul>
           <li><a href="/accessibilite-numerique/cadre-legal/">Obligations légales et sanctions</a></li>
           <li><a href="/accessibilite-numerique/RGAA/">Le Référentiel général d'amélioration de l'accessibilité</a></li>
           <li><a href="/accessibilite-numerique/schema-pluriannuel/">Schéma pluriannuel de mise en accessibilité</a></li>
           <li><a href="/accessibilite-numerique/declaration-accessibilite/">Déclaration d'accessibilité</a></li>
-          <li><a href="/accessibilite-numerique/accord-cadre-dae/">Accord-cadre interministériel</a></li>
           </ul>
-          <h2><a href="/accompagnement/">Accompagnement</a></h2>
-          <h2><a href="/outils/">Outils</a></h2>
+          <h2><a href="/outils/">Outils et aides</a></h2>
           <ul>
-          <li><a href="/accessibilite-numerique/jeu-de-oaa/">Organiser l’amélioration de l‘accessibilité</a></li>
-          <li><a href="/outils/checklist-dev/">La checklist des développeurs et développeuses</a></li>
-          <li><a href="/outils/memo-dev/">Le mémo développement</a></li>
-          <li><a href="/outils/diagnostic-flash/">Le diagnostic flash</a></li>
-          <li><a href="/outils/audit-rapide/">L‘audit rapide RGAA</a></li>
+          <li><a href="/outils/">La FAQ </a></li>
+          <li><a href="/outils/checklist-dev/">Le guide</a></li>
           </ul>
-          <h2><a href="/formations/">Formations</a></h2>
           <h2>Et </h2>
           <ul>
             <li><a href="/equipe/">Notre équipe</a></li>
             <li><a href="/contact/">Contact</a></li>
-            <li><a href="/recrutement/">Recrutement</a></li>
             <li><a href="/misc/accessibilite/">Accessibilité</a></li>
             <li><a href="/misc/donnees-personnelles/">Données personnelles</a></li>
             <li><a href="/misc/mentions-legales/">Mentions légales</a></li>

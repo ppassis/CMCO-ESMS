@@ -25,18 +25,17 @@
         <section>
           <h2>Déclaration d’accessibilité</h2>
           <p>
-            Le site design.numerique.gouv.fr est développé selon les recommendations du référentiel général d’amélioration de l’accessibilité (RGAA) pour être accessible à tous les usagers quel que soit le matériel ou le logiciel utilisé pour naviguer sur internet.
+            Ce site est développé selon les recommendations du référentiel général d’amélioration de l’accessibilité (RGAA) pour être accessible à tous les usagers quel que soit le matériel ou le logiciel utilisé pour naviguer sur internet.
           </p>
           <h3>État de conformité</h3>
-          <p>DesignGouv est <strong>totalement conforme</strong> avec le RGAA 4.</p>
+          <p>Ce site est <strong>totalement conforme</strong> avec le RGAA 4.</p>
           <h3>Échantillon évalué</h3>
-          <p>Un premier audit, effectué en septembre 2020, a permis d’identifier certaines anomalies et des axes de progressions. L’audit mené en décembre 2020 par nos soins n’a relevé aucune non-conformité sur l’échantillon suivant :</p>
+          <p>Un premier audit, effectué en septmebre 2021, a permis d’identifier certaines anomalies et des axes de progressions. L’audit mené en décembre 2021 par nos soins n’a relevé aucune non-conformité sur l’échantillon suivant :</p>
           <ul>
             <li><a href="/">Accueil</a></li>
-            <li><a href="/newsletter/">Newsletter</a></li>
+            <li><a href="/outils/">Outils et aides</a></li>
             <li><a href="/misc/mentions-legales/">Mentions légales</a></li>
             <li><a href="/misc/accessibilite">Accessibilité</a></li>
-            <li><a href="/commando-ux/">Commando UX</a></li>
             <li><a href="/equipe/">Notre équipe</a></li>
             <li><a href="/signin/">signin</a></li>
           </ul>
