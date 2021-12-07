@@ -25,27 +25,22 @@
         <section>
           <h2>Mission</h2>
           <p>
-            En 2020, Emmanuel Macron a fixé deux objectifs à 2022 : rendre 100% des démarches administratives réalisables en ligne, et améliorer les services publics du quotidien grâce au numérique.
+            Parmi les 5 thématiques des groupes de travail du Conseil du Numérique en Santé (CNS), les GT du Médico-Social sont des espaces de travail pour l’écosystème qui ont vocation à identifier et traiter des sujets qui ne sont pas encore couverts par la trajectoire numérique dédiée pour le médico-social et par les travaux actuellement menés par les acteurs institutionnels en charge de la politique du numérique en santé.
           </p>
           <p>
-            Le numérique, c'est la promesse d’un accès à une multitude d’informations, de culture et services pour tous, et partout. Néanmoins, en France notamment, les produits et services numériques sont encore trop souvent conçus sans prendre en compte l'audience qu’ils servent. C’est le cas pour de nombreux services publics numériques. <strong>Le numérique doit nous permettre d'améliorer la relation entre les usagers et l'administration, à travers des services simples, accessibles et humains.</strong>
+            L’objectif est d’alimenter la feuille de route de transformation numérique du secteur, au travers de la production de livrables concrets, en s’appuyant sur des acteurs de terrain pour que la transformation numérique du médico-social soit la plus en adéquation possible avec les attentes et les vécus des métiers et des usagers.
           </p>
           <p>
-            En partenariat avec les ministères porteurs des démarches administratives les plus utilisées par les Français, nous travaillons pour qu'un plus grand nombre puissent utiliser ces services en toute autonomie, notamment les 12M de personnes en situation de handicap. Pour ce faire, nous pilotons et suivons la qualité de cette numérisation des services à travers l'<a href="https://observatoire.numerique.gouv.fr">Observatoire</a> depuis juin 2019. Nous avons lancé en septembre 2020 le <a href="https://design.numerique.gouv.fr/commando-ux">Commando UX</a> pour déployer des designers et développeurs au sein des ministères qui concoivent ces services publics. Enfin, nous participons au développement d’une culture de design d'inclusion au sein de l’État, et à la mise en communauté de compétences de design dans les administrations.
+            Les GT sont autonomes et regroupent une centaine de participants de différents profils et de différentes régions : des représentants d’ESMS, des professionnels de santé, des industriels, des institutionnels, des Conseils départementaux, des MDPH et CLIC, des associations, des Groupements d'Appui à la e-Santé, etc.
           </p>
-          <p>
-            Le pôle Design des services numériques est rattaché à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a> et placé, par délégation du Premier ministre, sous l’autorité de la ministre de la transformation et de la fonction publiques <a href="https://twitter.com/AdeMontchalin">Amélie de Montchalin</a>.
-          </p>
-          <h2>Mesures de succès d'ici 2022</h2>
+          
+          <h2>Les livrables du GT #4</h2>
           <ul>
             <li>
-              Achever la numérisation de 100% des <a href="https://observatoire.numerique.gouv.fr">250 démarches administratives</a> les plus utilisées par les Français
+              Le guide <a href="https://observatoire.numerique.gouv.fr">démarches de mutualisation</a> également disponible dans les différentes rubriques de la FAQ 
             </li>
             <li>
-              80% des démarches qui s'adressent aux particuliers, et 90% des démarches qui s'adressent aux professionnels devront obtenir une note de satisfaction supérieur à 7/10
-            </li>
-            <li>
-              80% de ces démarches administratives devront être accessibles aux personnes en situation de handicap
+              Ce site web permettant aux acteurs du médico-social de partager et se regrouper autour d'actions de mutualisation des compétences et des outils numériques 
             </li>
           </ul>
         </section>
